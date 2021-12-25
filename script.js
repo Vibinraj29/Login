@@ -11,12 +11,13 @@ function Register(){
     }
     else if(password.length<=5){
         alert("Password length cant be less than 5 characters");
+        return false;
     }
     else if(password!=repass){
         alert("Pass is not same");
+        return false;
     }
     else{
         alert("Successfull!");
-        window.open("https://vibinraj29.github.io/Login/");
     }
 }
