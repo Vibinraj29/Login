@@ -17,5 +17,6 @@ function Register(){
     }
     else{
         alert("Successfull!");
+        window.open("");
     }
 }
