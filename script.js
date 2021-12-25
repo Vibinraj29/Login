@@ -17,6 +17,6 @@ function Register(){
     }
     else{
         alert("Successfull!");
-        window.open("");
+        window.open("https://vibinraj29.github.io/Login/");
     }
 }
